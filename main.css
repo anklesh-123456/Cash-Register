@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+   
+   align-items: center;
+   margin: auto;
+   margin-top: 50px;
+   padding: 20px 15px;
+    border: 2px solid rgb(7, 21, 218);
+    gap: 8px;
+    background-color:rgb(102, 255, 0);
+    border-radius: 7px;
+}
+.container h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: rgb(54, 9, 216)
+}
+
+.container input{
+    font-size: large;
+}
+button{
+    font-size: 17px;
+    padding: 3px;
+    font: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+button:hover{
+    background-color:rgb(7, 21, 218); 
+    color: white;
+   
+}
+
+.change-table{
+    border: 1px solid black;
+    padding: 2px;
+    width: 100%;
+   
+}
+caption{
+    margin: 8px 0;
+    font-size: 20px;
+    font: bolder;
+    color: rgb(4, 14, 155);
+}
